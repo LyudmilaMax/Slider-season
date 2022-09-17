@@ -30,59 +30,71 @@
   </head>
 
   <body>
-    <h1 class="title">Цікаві факти про пори року</h1>
-    <div class="slider variable-width">
-      
-
-      <div class="slider-img">
-        <img height="350" width="450" src="./Images/spring.jpg" alt="spring" />
-        <p>Весна</p>
-        <ul class="slider-text">
-          <li>Найпершою, навесні, зацвітає японська сакура (вишня).</li>
-          <li>Навесні діти ростуть утричі швидше, ніж із серпня по грудень.</li>
-          <li>Весною бджоли більш дружелюбні, ніж в інші періоди.</li>
+    <h1 class="main-title">Цікаві факти про пори року</h1>
+     <div class="slider autoplay">
+      <div class="slider__img">
+        <a href="#" class="slider__image-link">
+        <img height="350" width="450" src="./Images/spring.jpg" alt="spring" /> </a>
+        <div class="slider-block">
+        <p class="slider__title">Весна</p>
+        <ul class="slider__text">
+          <li class="slider__description">Найпершою, навесні, зацвітає японська сакура (вишня).</li>
+          <li class="slider__description">Навесні діти ростуть утричі швидше, ніж із серпня по грудень.</li>
+          <li class="slider__description">Весною бджоли більш дружелюбні, ніж в інші періоди.</li>
         </ul>
+        </div>
       </div>
 
-      <div class="slider-img">
-        <img height="350" width="450" src="./Images/summer.jpg" alt="summer" />
-        <p>Літо</p>
-        <ul class="slider-text">
-          <li>Влітку в людини підвищується віра у власні можливості.</li>
-          <li>
+      <div class="slider__img">
+        <a href="#" class="slider__image-link">
+        <img height="350" width="450" src="./Images/summer.jpg" alt="summer" /></a>
+        <div class="slider-block">
+        <p class="slider__title">Літо</p>
+        <ul class="slider__text">
+          <li class="slider__description">Влітку в людини підвищується віра у власні можливості.</li>
+          <li class="slider__description">
             Фізичні тренування в жарку погоду дають змогу худнути значно швидше,
             ніж взимку.
           </li>
-          <li>
+          <li class="slider__description">
             Ейфелева вежа через розширення заліза під сонячними променями
             збільшується в розмірі й підростає приблизно на 15 см.
           </li>
         </ul>
+        </div>
       </div>
-      <div class="slider-img">
-        <img height="350" width="450" src="./Images/autumn.jpg" alt="autumn" />
-        <p>Осінь</p>
-        <ul class="slider-text">
-          <li>На екваторі осені не буває зовсім.</li>
-          <li>В багатьох людей притупляється почуття страху.</li>
-          <li>Восени завжди різко зростає число ДТП.</li>
+      <div class="slider__img">
+        <a href="#" class="slider__image-link">
+        <img height="350" width="450" src="./Images/autumn.jpg" alt="autumn" /></a>
+        <div class="slider-block">
+        <p class="slider__title">Осінь</p>
+        <ul class="slider__text">
+          <li class="slider__description">Восени листя припиняє виробництво хлорофілу (зеленого кольору), а тому стає жовтим та червоним.</li>
+          <li class="slider__description">В багатьох людей притупляється почуття страху.</li>
+          <li class="slider__description">Восени завжди різко зростає число ДТП.</li>
         </ul>
+        </div>
       </div>
       <div class="slider-img">
-        <img height="350" width="450" src="./Images/winter.jpg" alt="winter" />
-        <p>Зима</p>
+        <a href="#" class="slider__image-link">
+        <img height="350" width="450" src="./Images/winter.jpg" alt="winter" /></a>
+        <div class="slider-block">
+        <p class="slider__title">Зима</p>
         <ul class="slider-text">
-          <li>Третина людей на Землі ніколи не бачили снігу</li>
-          <li>
+          <li class="slider__description">Третина людей на Землі ніколи не бачили снігу</li>
+          <li class="slider__description">
             Сніжинки завжди відрізняються один від одного і здатні співати
           </li>
-          <li>
+          <li class="slider__description">
             Бурульки в середніх широтах виростають найбільшими з південної
             сторони будинку.
           </li>
         </ul>
+        </div>
       </div>
     </div>
+
+    <!-- ===ПІДКЛЮЧЕННЯ JS=== -->
     <script
       type="text/javascript"
       src="//code.jquery.com/jquery-1.11.0.min.js"
